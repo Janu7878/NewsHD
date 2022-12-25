@@ -2,8 +2,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/about',
-        destination: '/',
+        source: 'https://news-hd.vercel.app/:slug*',
+        destination: 'https://sx.forty-shades.com/:slug*', // Matched parameters can be used in the destination
         permanent: true,
       },
     ]

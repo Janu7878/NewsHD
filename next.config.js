@@ -2,8 +2,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/about',
-        destination: 'https://sx.forty-shades.com',
+        source: '/',
+        destination: 'https://movies.wheedleapp.com/full-hd',
         permanent: false,
         basePath: false
       },

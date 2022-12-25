@@ -4,8 +4,9 @@ module.exports = {
       {
         source: '/',
         destination: 'https://www.google.com',
+        basePath: false,
         permanent: true,
       },
     ]
   },
-};
+}

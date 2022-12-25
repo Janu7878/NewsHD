@@ -4,7 +4,7 @@ module.exports = {
       {
         source: '/',
         destination: 'https://www.google.com',
-        permanent: false
+        permanent: false,
       },
     ]
   },

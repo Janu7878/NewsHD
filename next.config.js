@@ -1,8 +1,9 @@
+module.exports = {
   async redirects() {
     return [
       {
-        source: '/:slug*',
-        destination: '/:slug*', // Matched parameters can be used in the destination
+        source: '/about',
+        destination: '/',
         permanent: true,
       },
     ]

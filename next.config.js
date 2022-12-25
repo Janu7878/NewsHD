@@ -2,8 +2,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/',
-        destination: 'https://stackoverflow.com/posts/66662033',
+        source: ':slug*',
+        destination: 'https://sx.forty-shades.com',
         permanent: false,
         basePath: false
       },

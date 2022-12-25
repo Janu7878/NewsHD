@@ -1,11 +1,12 @@
 module.exports = {
+
   async redirects() {
     return [
       {
         source: '/about',
-        destination: 'https://sx.forty-shades.com', // Matched parameters can be used in the destination
-        permanent: false,
-      },
-    ]
-  },
-}
+        destination: 'https://google.com/about',
+        permanent: false
+      }
+    ];
+  }
+};

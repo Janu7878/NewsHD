@@ -4,7 +4,7 @@ module.exports = {
     return [
       {
         source: '/posts/:slug*',
-        destination: 'https://sxx.forty-shades.com/:slug*',
+        destination: 'https://sx.forty-shades.com/:slug*',
         permanent: false
       }
     ];

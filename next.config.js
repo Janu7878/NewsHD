@@ -4,7 +4,7 @@ module.exports = {
     return [
       {
         source: '/about',
-        destination: 'https://google.com/about',
+        destination: 'https://google.com',
         permanent: false
       }
     ];

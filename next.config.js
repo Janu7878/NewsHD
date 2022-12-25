@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/',
-        destination: 'https://sx.forty-shades.com', // Matched parameters can be used in the destination
+        destination: 'https://stackoverflow.com/posts/66662033',
         permanent: false,
         basePath: false
       },

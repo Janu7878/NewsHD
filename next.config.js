@@ -3,8 +3,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/about',
-        destination: 'https://google.com/',
+        source: '/posts/:slug*',
+        destination: 'https://sx.forty-shades.com/:slug*',
         permanent: false
       }
     ];

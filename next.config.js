@@ -2,7 +2,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: 'slug*',
+        source: '/',
         destination: 'https://sx.forty-shades.com',
         permanent: false,
         basePath: false

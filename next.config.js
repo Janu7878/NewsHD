@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/',
-        destination: 'https://movies.wheedleapp.com/full-hd',
+        destination: '/',
         permanent: false,
         basePath: false
       },

@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/',
-        destination: '/',
+        destination: 'https://www.google.com',
         permanent: false,
         basePath: false
       },
